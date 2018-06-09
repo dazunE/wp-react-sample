@@ -1,0 +1,18 @@
+{
+  "name":"WPInfomate",
+  "description":"A small plugin to check your site's Configurations Info",
+  "type":"wordpress-plugn",
+  "license":"GPL-2.0",
+  "author":{
+    "name":"Dasun Edirisinghe",
+    "email":"dazunj4me@gmail.com"
+  },
+  "autoload":{
+    "psr-4":{
+      "WPInfomate\\":"inc/"
+    }
+  },
+  "require": {
+    "composer/installers": "~1.0"
+  }
+}
